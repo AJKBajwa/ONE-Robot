@@ -1,8 +1,8 @@
 # ONE-Robot
-> 2015年做的一个基于IMU和STM32的独轮自平衡机器人。
+> A self-balancing unicycle robot based on IMU and STM32 made in 2015。
 
-仓库包含STM32的固件源码以及机械结构的3D模型，控制板的电路由于年代久远以及不知去向。不过电路很简单，基本就是一个STM32F103的最小系统，引出了两路PWM控制两个电机；两路计时器用于读取编码器数据；以及几路用于读取模拟陀螺仪和加速度计的ADC。感兴趣有基础的同学可以自己研究一下~
+The warehouse contains the firmware source code of STM32 and the 3D model of the mechanical structure. The circuit of the control board is old and missing. But the circuit is very simple. It is basically a minimum system of STM32F103, which leads to two PWMs to control two motors; two timers are used to read encoder data; and several ADCs are used to read analog gyroscopes and accelerometers. Students who are interested in basic knowledge can study it by themselves~
 
-演示视频看这个：[https://www.bilibili.com/video/av89252261/](https://www.bilibili.com/video/av89252261/)
+Demonstration video watch this：[https://www.bilibili.com/video/av89252261/](https://www.bilibili.com/video/av89252261/)
 
 ![one1](img/one1.jpg)
